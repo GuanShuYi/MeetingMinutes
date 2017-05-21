@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MeetingMinutes</string>
+    <string name="save_changes">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="default_meeting">Default Meeting</string>
+    <string name="title_activity_edit_agenda">Edit Agenda</string>
+</resources>

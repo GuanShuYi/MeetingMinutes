@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuSettings"
+        android:enabled="true"
+        android:title="Settings"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mnuNewAgenda"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="New"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mnuDelete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Delete"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>
